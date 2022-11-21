@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H1 scraper</title>
+</head>
+<body>
+
+
+<form id="form" action="">
+    <input id='url_input' type="text">
+    <input id="url_submit" type="submit">
+</form>
+
+<h1></h1>
+
+    
+    <script type="text/javascript">
+        var inputField = document.getElementById('url_input');
+        var form = document.getElementById('form');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault()
+            var inputFieldValue = inputField.value;
+          
+            return inputFieldValue
+            
+        })
+
+       
+    </script>
+
+    <script src="\index.js" type="text/javascript"></script>
+</body>
+</html>
